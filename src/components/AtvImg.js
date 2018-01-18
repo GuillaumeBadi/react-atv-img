@@ -3,13 +3,6 @@ import React, { Component, PropTypes } from 'react';
 import styles from '../styles';
 
 export default class AtvImg extends Component {
-  static propTypes = {
-    layers: PropTypes.arrayOf(PropTypes.string).isRequired,
-    isStatic: PropTypes.bool,
-    staticFallback: PropTypes.string,
-    className: PropTypes.string,
-    style: PropTypes.object,
-  };
 
   state = {
     rootElemWidth: 0,
